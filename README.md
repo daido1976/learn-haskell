@@ -1,6 +1,9 @@
 # learn-haskell
 
-Learn Haskell with [すごい Haskell たのしく学ぼう!](https://www.amazon.co.jp/dp/4274068854).
+- Learn Haskell with...
+  - [すごい Haskell たのしく学ぼう!](https://www.amazon.co.jp/dp/4274068854)
+  - [Haskell らしさって？「型」と「関数」の基本を解説！【第二言語としての Haskell】 \- エンジニア Hub](https://eh-career.com/engineerhub/entry/2017/08/25/110000)
+  - [こわくない Haskell 入門（初級） \- Qiita](https://qiita.com/arowM/items/9ebfb7cafecd99290663)
 
 ## Installation
 
