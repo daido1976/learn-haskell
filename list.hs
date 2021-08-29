@@ -12,3 +12,7 @@ isAsc :: [Int] -> Bool
 isAsc [] = True
 isAsc [x] = True
 isAsc (x : y : xs) = (x <= y) && isAsc (y : xs)
+
+quickSort :: (Ord a) => [a] -> [a]
+quickSort [] = []
+quickSort (x : xs) = quickSort [y | y <- xs, y <= x] ++ [x] ++ quickSort [y | y <- xs, y > x]
