@@ -8,15 +8,8 @@
 
 ## Installation
 
-- [Stack](https://docs.haskellstack.org/en/stable/README/) をインストール
 - [vscode-haskell](https://marketplace.visualstudio.com/items?itemName=haskell.haskell) をインストール
-
-## How to write code
-
-```sh
-# 以下のように VSCode を開かないと `project requires ghc but it isn't installed` になる
-$ stack exec code .
-```
+- [GHCup](https://www.haskell.org/ghcup/) をインストール
 
 ## How to execute
 
@@ -24,12 +17,12 @@ $ stack exec code .
 $ echo 'main :: IO ()\nmain = putStrLn "Hello World!"' > 'hello.hs'
 
 # ghci でロードして関数を実行
-$ stack ghci
+$ ghci
 > :l hello.hs
 > main
 Hello World!
 > :q
 
-$ stack runghc hello.hs
+$ runghc hello.hs
 Hello World!
 ```
