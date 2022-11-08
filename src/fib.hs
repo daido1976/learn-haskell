@@ -1,7 +1,6 @@
 -- |
 -- >>> fib 10
 -- 55
---
 -- >>> fib 5
 -- 5
 fib :: Int -> Int
@@ -12,7 +11,6 @@ fib n = fib (n - 1) + fib (n - 2)
 -- |
 -- >>> memorizedFib 10
 -- 55
---
 -- >>> memorizedFib 5
 -- 5
 --

@@ -14,19 +14,22 @@
 ## How to execute
 
 ```sh
-$ echo 'main :: IO ()\nmain = putStrLn "Hello World!"' > 'hello.hs'
+$ echo 'main :: IO ()\nmain = putStrLn "Hello World!"' > 'src/hello.hs'
 
-# ghci でロードして関数を実行
-$ ghci
-> :l hello.hs
+$ make repl
+> :l src/hello.hs
 > main
 Hello World!
 > :q
 
-$ runghc hello.hs
+$ make run path=src/hello.hs
 Hello World!
 ```
 
 ## Testing
 
 Use https://github.com/sol/doctest
+
+```sh
+$ make test
+```
