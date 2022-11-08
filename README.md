@@ -26,3 +26,7 @@ Hello World!
 $ runghc hello.hs
 Hello World!
 ```
+
+## Testing
+
+Use https://github.com/sol/doctest
